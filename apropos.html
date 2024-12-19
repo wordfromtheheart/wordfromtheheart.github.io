@@ -1,0 +1,93 @@
+<html lang="fr">
+
+	<head>
+  		<meta charset="utf-8">
+  		<title>À PROPOS</title>
+  		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+
+		<header>
+		    <nav>
+		        <div id="logo">
+		            <a href="#" title="Menu">
+		                <img src="images/WFTH_logo.png" alt="Logo">
+		            </a>
+		        </div>
+		        <ul class="menu">
+		            <li>
+		                <a href="accueil.html" title="Retour page accueil">Accueil
+		                </a>
+		            </li>
+		            <li>
+		                <a href="compilation.html" title="Bienvenue dans mon univers">Compilation
+		                </a>
+		            </li>
+		            <li>
+		                <a href="WFTHqui.html" title="Qui est WFTH ?">W.F.T.H.
+		                </a>
+		            </li>
+		            <li>
+		                <a href="contact.html" title="Me contacter">
+		                	Me contacter
+		                </a>
+		            </li>
+		        </ul>
+		    </nav>
+		</header>
+
+		<section id="pageprojets">
+			<div id="conteneur">
+				<h2>
+					Word From The Heart
+				</h2>
+				<h3>
+					Sionneau Enéa
+				</h3>
+				<p>
+					Au sein de mes projets j’agis dans ce but, dirige mes choix vers ce qui me rendra la plus fière possible, pour qu'ils soient ainsi représentatifs de cet univers graphique que je défend.
+				</br>
+					Pour arriver à cela j'essaye de rester moi-même et de faire quelque chose qui me ressemble et qui témoigne des valeurs que l’on m’a transmise.
+					La pratique, la culture et la compréhension de ce qui m’entour m'ont permis d'y arriver.
+				</br>
+					Je n’ai qu’un rêve, réussir à travailler aux côtés d’artistes qui depuis nombres d’années me font vivre multiples sensations et attise nombres d’émotions chez moi. Ainsi, le domaine de l'urbain et le jeu avec les contraste me permettent d'arriver à ces projets graphique.
+				</br>
+					Ainsi, devenir directrice artistique serait le commencement d'une vie remplie de passion.
+				</p>
+			</div>
+
+			<article class="deuximages">
+				<figure>
+					<img src="images/imagemoi.png" alt="photo d'identité">
+				</figure>
+			</article>
+
+		</section>
+
+		<footer>
+		    <div class="footer-info">
+		    	<p><a href="mailto:sionneauenea@gmail.com">sionneauenea[at]gmail.com</a></p>
+		    	<p><a href="https://www.google.com/maps?q=Paris" target="_blank">Paris \</a><a href="https://www.google.com/maps?q=Tours" target="_blank">Tours,</a><a href="https://www.google.com/maps?q=France" target="_blank">France</a></p>
+		        <p><a href="tel:+33609848765">06 09 84 87 65</a></p>
+		    </div>
+
+		    <div class="footer-text">
+		        <p>Codé par Sionneau Enéa ©2024</p>
+		    </div>
+		</footer>
+
+
+		<script>
+		  const logo = document.querySelector('#logo');
+		  const menu = document.querySelector('.menu');
+
+		  logo.addEventListener('click', () => {
+		    const isMenuVisible = menu.style.display === 'flex';
+		    menu.style.display = isMenuVisible ? 'none' : 'flex';
+		    logo.classList.toggle('active'); // Ajoute ou enlève la classe active
+		  });
+		</script>
+
+	</body>	
+</html>

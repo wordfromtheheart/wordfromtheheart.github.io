@@ -1,0 +1,105 @@
+<html lang="fr">
+
+	<head>
+  		<meta charset="utf-8">
+  		<title>LES GARÇONS PLEURENT</title>
+  		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+
+		<header>
+		    <nav>
+		        <div id="logo">
+		            <a href="#" title="Menu">
+		                <img src="images/WFTH_logo.png" alt="Logo">
+		            </a>
+		        </div>
+		        <ul class="menu">
+		            <li>
+		                <a href="accueil.html" title="Retour page accueil">Accueil
+		                </a>
+		            </li>
+		            <li>
+		                <a href="compilation.html" title="Bienvenue dans mon univers">Compilation
+		                </a>
+		            </li>
+		            <li>
+		                <a href="WFTHqui.html" title="Qui est WFTH ?">W.F.T.H.
+		                </a>
+		            </li>
+		            <li>
+		                <a href="contact.html" title="Me contacter">
+		                	Me contacter
+		                </a>
+		            </li>
+		        </ul>
+		    </nav>
+		</header>
+
+		<section id="pageprojets">
+			<div id="conteneur">
+				<h2>
+					LES GARÇONS PLEURENT
+				</h2>
+				<h3>
+					Refont "Les garçons ne pleurent pas" de Dinos
+				</h3>
+				<p>
+					Ce projet avait pour but de promouvoir la musique “Les garçons ne pleurent pas” de Dinos. Une représentation faite 100% à la main, par l’usage du collage, de la peinture et du dessin était très intéressante à travailler. Par ailleurs, j’ai choisi de représenter cette musique sous un tout nouvel angle : les garçons pleurent et peuvent se permettre de pleurer.
+					</br>
+					Dans sa musique, Dinos évoque l’incapacité d’un homme à pleurer surtout lorsqu’il vit dans des quartiers où l’homme se doit d’agir en tant que personnage de maintien d’une famille. Il s’agissait ici de montrer que l’homme peut à la fois être un être sensible, maintenir une famille stable et en sécurité.
+				</p>
+			<article class="deuximages">
+				<figure>
+					<img src="images/dinos_couv2.jpg" alt="descritption">
+				</figure>
+			</article>
+			
+			<article class="deuximages">
+				<figure>
+					<img src="images/dinos_couv1.jpg" alt="descritption">
+				</figure>
+				<figure>
+					<img src="images/dinos_couv3.jpg" alt="descritption">
+				</figure>
+			</article>
+		</section>
+
+		<nav>
+			<ul>
+				<a href="coverreurs.html">
+					<li>
+						COV'ERREURS
+					</li>
+				</a>
+			</ul>
+		</nav>
+
+		<footer>
+		    <div class="footer-info">
+		    	<p><a href="mailto:sionneauenea@gmail.com">sionneauenea[at]gmail.com</a></p>
+		    	<p><a href="https://www.google.com/maps?q=Paris" target="_blank">Paris \</a><a href="https://www.google.com/maps?q=Tours" target="_blank">Tours,</a><a href="https://www.google.com/maps?q=France" target="_blank">France</a></p>
+		        <p><a href="tel:+33609848765">06 09 84 87 65</a></p>
+		    </div>
+
+		    <div class="footer-text">
+		        <p>Codé par Sionneau Enéa ©2024</p>
+		    </div>
+		</footer>
+
+
+		<script>
+		  const logo = document.querySelector('#logo');
+		  const menu = document.querySelector('.menu');
+
+		  logo.addEventListener('click', () => {
+		    const isMenuVisible = menu.style.display === 'flex';
+		    menu.style.display = isMenuVisible ? 'none' : 'flex';
+		    logo.classList.toggle('active'); // Ajoute ou enlève la classe active
+		  });
+		</script>
+	</body>
+
+</html>
+

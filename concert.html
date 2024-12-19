@@ -1,0 +1,117 @@
+<html lang="fr">
+
+	<head>
+  		<meta charset="utf-8">
+  		<title>Photographie de concerts</title>
+  		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+
+		<header>
+		    <nav>
+		        <div id="logo">
+		            <a href="#" title="Menu">
+		                <img src="images/WFTH_logo.png" alt="Logo">
+		            </a>
+		        </div>
+		        <ul class="menu">
+		            <li>
+		                <a href="accueil.html" title="Retour page accueil">Accueil
+		                </a>
+		            </li>
+		            <li>
+		                <a href="compilation.html" title="Bienvenue dans mon univers">Compilation
+		                </a>
+		            </li>
+		            <li>
+		                <a href="WFTHqui.html" title="Qui est WFTH ?">W.F.T.H.
+		                </a>
+		            </li>
+		            <li>
+		                <a href="contact.html" title="Me contacter">
+		                	Me contacter
+		                </a>
+		            </li>
+		        </ul>
+		    </nav>
+		</header>
+
+		<section id="pageprojets">
+			
+			<div id="conteneur">
+				<h2>
+					PELLICULE MUSICALE
+				</h2>
+				<h3>
+					Passion vivante
+				</h3>
+				<p>
+					Depuis petite je nourris une réelle passion pour la musique, j'ai pu aller assister à beaucoup de concerts, de festivals, de release party... Aller à ces évènements est pour moi, un moyen de mieux comprendre l'artiste, ses intentions, sa vie et sa personne. Voici donc quelques photographies tirées de mes derniers concerts.
+				</p>
+			</div>
+
+			<article class="troisimages">
+				<figure>
+					<img src="images/dali_1.jpg" alt="Dali">
+				</figure>
+				<figure>
+					<img src="images/yassine_stein_1.jpg" alt="Yassine Stein">
+				</figure>
+				<figure>
+					<img src="images/dali_2.jpg" alt="Dali">
+				</figure>
+			</article>
+			<article class="troisimages">
+				<figure>
+					<img src="images/guy2_2.jpg" alt="Guy2bezbar">
+				</figure>
+				<figure>
+					<img src="images/yvnnis_2.jpg" alt="Yvnnis">
+				</figure>
+				<figure>
+					<img src="images/gloriette.jpg" alt="Gloriette">
+				</figure>
+			</article>
+			<article class="troisimages">
+				<figure>
+					<img src="images/youv_dee_1.jpg" alt="Youv Dee">
+				</figure>
+				<figure>
+					<img src="images/yassine_stein_2.jpg" alt="Yassine Stein">
+				</figure>
+				<figure>
+					<img src="images/guy2_1.jpg" alt="Guy2bezbar">
+				</figure>
+			</article>
+
+
+		</section>
+
+		<footer>
+		    <div class="footer-info">
+		    	<p><a href="mailto:sionneauenea@gmail.com">sionneauenea[at]gmail.com</a></p>
+		    	<p><a href="https://www.google.com/maps?q=Paris" target="_blank">Paris \</a><a href="https://www.google.com/maps?q=Tours" target="_blank">Tours,</a><a href="https://www.google.com/maps?q=France" target="_blank">France</a></p>
+		        <p><a href="tel:+33609848765">06 09 84 87 65</a></p>
+		    </div>
+
+		    <div class="footer-text">
+		        <p>Codé par Sionneau Enéa ©2024</p>
+		    </div>
+		</footer>
+
+
+		<script>
+		  const logo = document.querySelector('#logo');
+		  const menu = document.querySelector('.menu');
+
+		  logo.addEventListener('click', () => {
+		    const isMenuVisible = menu.style.display === 'flex';
+		    menu.style.display = isMenuVisible ? 'none' : 'flex';
+		    logo.classList.toggle('active'); // Ajoute ou enlève la classe active
+		  });
+		</script>
+
+
+	</body>	
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	  		<title>HIVERNAGE</title>
+	  		<link rel="stylesheet" href="style/reset.css">
+			<link rel="stylesheet" href="style/style.css">
+			<link rel="stylesheet" href="https://use.typekit.net/gts7oyh.css">
+	</head>
+	<body>
+
+		<header>
+		    <nav>
+		        <div id="logo">
+		            <a href="#" title="Menu">
+		                <img src="images/WFTH_logo.png" alt="Logo">
+		            </a>
+		        </div>
+		        <ul class="menu">
+		            <li>
+		                <a href="accueil.html" title="Retour page accueil">Accueil
+		                </a>
+		            </li>
+		            <li>
+		                <a href="compilation.html" title="Bienvenue dans mon univers">Compilation
+		                </a>
+		            </li>
+		            <li>
+		                <a href="WFTHqui.html" title="Qui est WFTH ?">W.F.T.H.
+		                </a>
+		            </li>
+		            <li>
+		                <a href="contact.html" title="Me contacter">
+		                	Me contacter
+		                </a>
+		            </li>
+		        </ul>
+		    </nav>
+		</header>
+
+		<section id="pageprojets">
+			<div id="conteneur">
+				<h2>
+					HIVERNAGE
+				</h2>
+				<h3>
+					Comprendre les mots
+				</h3>
+				<p>
+					Entre l’affiche et l’animation se trouve Hivernage. Étant un mot très peu connu de tous, il était de mon devoir de le retranscrire graphiquement dans le but d'en comprendre son sens.
+			</br></br>
+					Hivernage étant une phase durant laquelle tout reste figé en période hivernale, il me semblait intéressant de le représenter par une typographie impactante et des couleurs froides. Puis d'évoquer cela en tranformant les lettres de manière à faire apparaître un navire figé dans la glace.
+				</p>
+			</div>
+
+			<article class="unevideo">
+			    <figure>
+			        <video loop autoplay muted controls>
+			            <source src="videos/hivernage.mp4" type="video/mp4">
+			            Votre navigateur ne supporte pas la vidéo.
+			        </video>
+			    </figure>
+			</article>
+			<article class="deuximages">
+				<figure>
+					<img src="images/hivernage.png" alt="hivernage">
+				</figure>
+				<figure>
+					<img src="images/hivernage_mes.png" alt="hivernage">
+				</figure>
+			</article>
+		</section>
+
+		<footer>
+		    <div class="footer-info">
+		    	<p><a href="mailto:sionneauenea@gmail.com">sionneauenea[at]gmail.com</a></p>
+		    	<p><a href="https://www.google.com/maps?q=Paris" target="_blank">Paris \</a><a href="https://www.google.com/maps?q=Tours" target="_blank">Tours,</a><a href="https://www.google.com/maps?q=France" target="_blank">France</a></p>
+		        <p><a href="tel:+33609848765">06 09 84 87 65</a></p>
+		    </div>
+
+		    <div class="footer-text">
+		        <p>Codé par Sionneau Enéa ©2024</p>
+		    </div>
+		</footer>
+
+
+		<script>
+		  const logo = document.querySelector('#logo');
+		  const menu = document.querySelector('.menu');
+
+		  logo.addEventListener('click', () => {
+		    const isMenuVisible = menu.style.display === 'flex';
+		    menu.style.display = isMenuVisible ? 'none' : 'flex';
+		    logo.classList.toggle('active'); // Ajoute ou enlève la classe active
+		  });
+		</script>
+
+
+	</body>	
+</html>

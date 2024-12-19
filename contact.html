@@ -1,0 +1,99 @@
+<html lang="fr">
+
+	<head>
+  		<meta charset="utf-8">
+  		<title>ME CONTACTER</title>
+  		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+
+		<header>
+		    <nav>
+		        <div id="logo">
+		            <a href="#" title="Menu">
+		                <img src="images/WFTH_logo.png" alt="Logo">
+		            </a>
+		        </div>
+		        <ul class="menu">
+		            <li>
+		                <a href="accueil.html" title="Retour page accueil">Accueil
+		                </a>
+		            </li>
+		            <li>
+		                <a href="compilation.html" title="Bienvenue dans mon univers">Compilation
+		                </a>
+		            </li>
+		            <li>
+		                <a href="WFTHqui.html" title="Qui est WFTH ?">W.F.T.H.
+		                </a>
+		            </li>
+		            <li>
+		                <a href="contact.html" title="Me contacter">
+		                	Me contacter
+		                </a>
+		            </li>
+		        </ul>
+		    </nav>
+		</header>
+		
+
+		<section id="pageinfos">
+			<section id="pageprojets">
+			<div id="conteneur">
+				<h2>
+					ME CONTACTER
+				</h2>
+				<h3>
+					Comment me joindre...
+				</h3>
+				<h4>
+					<a href="https://www.linkedin.com/in/enéa-sionneau-933b722b7/" target="_blank">
+						Linkedin
+					</a>
+				</h4>
+				<h4>
+					<a href="https://www.instagram.com/w.f.t.heart?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+						Instagram
+					</a>
+				</h4>
+				<h4>
+					<a href="mailto:sionneauenea@gmail.com" target="_blank">
+						Envoyer un mail
+					</a>
+				</h4>
+				<h4>
+					<a href="sionneau_enea_cv_2024.pdf" target="_blank">
+						Télécharger mon CV
+					</a>
+				</h4>
+			</div>
+		</section>
+
+		<footer>
+		    <div class="footer-info">
+		    	<p><a href="mailto:sionneauenea@gmail.com">sionneauenea[at]gmail.com</a></p>
+		    	<p><a href="https://www.google.com/maps?q=Paris" target="_blank">Paris \</a><a href="https://www.google.com/maps?q=Tours" target="_blank">Tours,</a><a href="https://www.google.com/maps?q=France" target="_blank">France</a></p>
+		        <p><a href="tel:+33609848765">06 09 84 87 65</a></p>
+		    </div>
+
+		    <div class="footer-text">
+		        <p>Codé par Sionneau Enéa ©2024</p>
+		    </div>
+		</footer>
+
+
+		<script>
+		  const logo = document.querySelector('#logo');
+		  const menu = document.querySelector('.menu');
+
+		  logo.addEventListener('click', () => {
+		    const isMenuVisible = menu.style.display === 'flex';
+		    menu.style.display = isMenuVisible ? 'none' : 'flex';
+		    logo.classList.toggle('active'); // Ajoute ou enlève la classe active
+		  });
+		</script>
+
+
+	</body>	
+</html>

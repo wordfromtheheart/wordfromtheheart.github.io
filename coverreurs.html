@@ -1,0 +1,137 @@
+<html lang="fr">
+
+	<head>
+  		<meta charset="utf-8">
+  		<title>cov'erreurs</title>
+  		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+
+		<header>
+		    <nav>
+		        <div id="logo">
+		            <a href="#" title="Menu">
+		                <img src="images/WFTH_logo.png" alt="Logo">
+		            </a>
+		        </div>
+		        <ul class="menu">
+		            <li>
+		                <a href="accueil.html" title="Retour page accueil">Accueil
+		                </a>
+		            </li>
+		            <li>
+		                <a href="compilation.html" title="Bienvenue dans mon univers">Compilation
+		                </a>
+		            </li>
+		            <li>
+		                <a href="WFTHqui.html" title="Qui est WFTH ?">W.F.T.H.
+		                </a>
+		            </li>
+		            <li>
+		                <a href="contact.html" title="Me contacter">
+		                	Me contacter
+		                </a>
+		            </li>
+		        </ul>
+		    </nav>
+		</header>
+		
+
+		<section id="pageprojets">
+			<div id="conteneur">
+				<h2>
+					COV'ERREURS
+				</h2>
+				<h3>
+					Reprise de couvertures d'albums
+				</h3>
+				<p>
+					Carnet de croquis qui se base sur la réinterprétation de couverture d’album. Utilisation de divers outils et diverses façons de se les réapproprier. Chaque couverture a été réalisée sur le temps d’une musique de l’album soit d’1min30 à 7min.
+				</p>
+
+			<article class="troisimages">
+				<figure>
+					<img src="images/cov1.jpg" alt="khali">
+				</figure>
+				<figure>
+					<img src="images/cov2.jpg" alt="yuzmv">
+				</figure>
+				<figure>
+					<img src="images/cov3.jpg" alt="lil yan">
+				</figure>
+			</article>
+			<article class="troisimages">
+				<figure>
+					<img src="images/cov4.jpg" alt="morphée">
+				</figure>
+				<figure>
+					<img src="images/cov5.jpg" alt="lyre">
+				</figure>
+				<figure>
+					<img src="images/cov6.jpg" alt="artel">
+				</figure>
+			</article>
+			<article class="troisimages">
+				<figure>
+					<img src="images/cov7.jpg" alt="villagers">
+				</figure>
+				<figure>
+					<img src="images/cov8.jpg" alt="bekar">
+				</figure>
+				<figure>
+					<img src="images/cov9.jpg" alt="georgio">
+				</figure>
+			</article>
+			<article class="deuximages">
+				<figure>
+					<img src="images/coverreur2.png" alt="couv2">
+				</figure>
+				<figure>
+					<img src="images/coverreur3.png" alt="couv3">
+				</figure>
+			</article>
+			<article class="deuximages">
+				<figure>
+					<img src="images/coverreur4.png" alt="couv4">
+				</figure>
+				<figure>
+					<img src="images/coverreur5.pdf" alt="couv5">
+				</figure>
+			</article>
+			<article class="deuximages">
+				<figure>
+					<img src="images/coverreur1.png" alt="couv1">
+				</figure>
+			</article>
+
+
+		</section>
+
+		<footer>
+		    <div class="footer-info">
+		    	<p><a href="mailto:sionneauenea@gmail.com">sionneauenea[at]gmail.com</a></p>
+		    	<p><a href="https://www.google.com/maps?q=Paris" target="_blank">Paris \</a><a href="https://www.google.com/maps?q=Tours" target="_blank">Tours,</a><a href="https://www.google.com/maps?q=France" target="_blank">France</a></p>
+		        <p><a href="tel:+33609848765">06 09 84 87 65</a></p>
+		    </div>
+
+		    <div class="footer-text">
+		        <p>Codé par Sionneau Enéa ©2024</p>
+		    </div>
+		</footer>
+
+
+		<script>
+		  const logo = document.querySelector('#logo');
+		  const menu = document.querySelector('.menu');
+
+		  logo.addEventListener('click', () => {
+		    const isMenuVisible = menu.style.display === 'flex';
+		    menu.style.display = isMenuVisible ? 'none' : 'flex';
+		    logo.classList.toggle('active'); // Ajoute ou enlève la classe active
+		  });
+		</script>
+
+
+	</body>	
+</html>

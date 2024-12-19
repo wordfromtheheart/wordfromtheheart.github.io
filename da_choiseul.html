@@ -1,0 +1,96 @@
+<html lang="fr">
+
+	<head>
+  		<meta charset="utf-8">
+  		<title>DA Lycée Choiseul</title>
+  		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+
+		<header>
+		    <nav>
+		        <div id="logo">
+		            <a href="#" title="Menu">
+		                <img src="images/WFTH_logo.png" alt="Logo">
+		            </a>
+		        </div>
+		        <ul class="menu">
+		            <li>
+		                <a href="accueil.html" title="Retour page accueil">Accueil
+		                </a>
+		            </li>
+		            <li>
+		                <a href="compilation.html" title="Bienvenue dans mon univers">Compilation
+		                </a>
+		            </li>
+		            <li>
+		                <a href="WFTHqui.html" title="Qui est WFTH ?">W.F.T.H.
+		                </a>
+		            </li>
+		            <li>
+		                <a href="contact.html" title="Me contacter">
+		                	Me contacter
+		                </a>
+		            </li>
+		        </ul>
+		    </nav>
+		</header>
+
+		<section id="pageprojets">
+			<div id="conteneur">
+				<h2>
+					LYCÉE CHOISEUL
+				</h2>
+				<h3>
+					Affiche des JPO 2022 & d'un logo
+				</h3>
+				<p>
+					L’affiche présente ci-dessous fut réalisée en collaboration avec Mme Biyao Emmanuelle en 2021. L’établissement dans lequel nous étudions à cette période nous demanda de réaliser l’affiche des Journée Portes Ouvertes et ce fut un honneur d’avoir été sélectionné. Contrairement à ce que l’on pourrait croire, cette dernière fut principalement réalisée au couteau et à la peinture, puis retravaillée sur numérique.
+				</br>
+					Par ailleurs, le logo du même établissement que vous pouvez voir ci-dessous n’a pas été sélectionné. Un travail assidu qui ne porta pas ses fruits mais dont nous sommes fières. Et qui, pour nous, représentait au mieux notre vision de cette structure.
+
+				</p>
+			<article class="deuximages">
+				<figure>
+					<img src="images/jpo_choiseul.png" alt="descritption">
+				</figure>
+				<figure>
+					<img src="images/jpo_choiseul_bleu.png" alt="descritption">
+				</figure>
+			</article>
+
+			<article class="deuximages">
+				<figure>
+					<img src="images/logo_c.png" alt="descritption">
+				</figure>
+			</article>
+		</section>
+
+		<footer>
+		    <div class="footer-info">
+		    	<p><a href="mailto:sionneauenea@gmail.com">sionneauenea[at]gmail.com</a></p>
+		    	<p><a href="https://www.google.com/maps?q=Paris" target="_blank">Paris \</a><a href="https://www.google.com/maps?q=Tours" target="_blank">Tours,</a><a href="https://www.google.com/maps?q=France" target="_blank">France</a></p>
+		        <p><a href="tel:+33609848765">06 09 84 87 65</a></p>
+		    </div>
+
+		    <div class="footer-text">
+		        <p>Codé par Sionneau Enéa ©2024</p>
+		    </div>
+		</footer>
+
+
+		<script>
+		  const logo = document.querySelector('#logo');
+		  const menu = document.querySelector('.menu');
+
+		  logo.addEventListener('click', () => {
+		    const isMenuVisible = menu.style.display === 'flex';
+		    menu.style.display = isMenuVisible ? 'none' : 'flex';
+		    logo.classList.toggle('active'); // Ajoute ou enlève la classe active
+		  });
+		</script>
+
+
+	</body>	
+</html>

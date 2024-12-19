@@ -1,0 +1,92 @@
+<html lang="fr">
+
+	<head>
+  		<meta charset="utf-8">
+  		<title>Histrame</title>
+  		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+
+		<header>
+		    <nav>
+		        <div id="logo">
+		            <a href="#" title="Menu">
+		                <img src="images/WFTH_logo.png" alt="Logo">
+		            </a>
+		        </div>
+		        <ul class="menu">
+		            <li>
+		                <a href="accueil.html" title="Retour page accueil">Accueil
+		                </a>
+		            </li>
+		            <li>
+		                <a href="compilation.html" title="Bienvenue dans mon univers">Compilation
+		                </a>
+		            </li>
+		            <li>
+		                <a href="WFTHqui.html" title="Qui est WFTH ?">W.F.T.H.
+		                </a>
+		            </li>
+		            <li>
+		                <a href="contact.html" title="Me contacter">
+		                	Me contacter
+		                </a>
+		            </li>
+		        </ul>
+		    </nav>
+		</header>
+
+		<section id="pageprojets">
+			<div id="conteneur">
+				<h2>
+					HISTRAME
+				</h2>
+				<h3>
+					Fanzine sur la Trame
+				</h3>
+				<p>
+					La trame est une technique graphique fréquemment utilisée pour représenter des sujets de manière simple et épurée. Ainsi ce fanzine explore l'histoire et le fonctionnement de la trame couramment utilisée en imprimerie et en dessin. En outre, des illustrations accompagnent la présentation, permettant de comprendre le procédé à travers quelques visuels clairs et concis.
+				</p>
+
+			<article class="deuximages">
+				<figure>
+					<img src="images/histrame_1.png" alt="descritption">
+				</figure>
+				<figure>
+					<img src="images/histrame_2.png" alt="descritption">
+				</figure>
+			</article>
+			<article class="deuximages">
+				<figure>
+					<img src="images/histrame.png" alt="descritption">
+				</figure>
+			</article>
+		</section>
+
+		<footer>
+		    <div class="footer-info">
+		    	<p><a href="mailto:sionneauenea@gmail.com">sionneauenea[at]gmail.com</a></p>
+		    	<p><a href="https://www.google.com/maps?q=Paris" target="_blank">Paris \</a><a href="https://www.google.com/maps?q=Tours" target="_blank">Tours,</a><a href="https://www.google.com/maps?q=France" target="_blank">France</a></p>
+		        <p><a href="tel:+33609848765">06 09 84 87 65</a></p>
+		    </div>
+
+		    <div class="footer-text">
+		        <p>Codé par Sionneau Enéa ©2024</p>
+		    </div>
+		</footer>
+
+
+		<script>
+		  const logo = document.querySelector('#logo');
+		  const menu = document.querySelector('.menu');
+
+		  logo.addEventListener('click', () => {
+		    const isMenuVisible = menu.style.display === 'flex';
+		    menu.style.display = isMenuVisible ? 'none' : 'flex';
+		    logo.classList.toggle('active'); // Ajoute ou enlève la classe active
+		  });
+		</script>
+
+	</body>	
+</html>

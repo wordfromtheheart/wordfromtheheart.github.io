@@ -1,0 +1,127 @@
+<html lang="fr">
+
+	<head>
+  		<meta charset="utf-8">
+  		<title>DA Miroir</title>
+  		<link rel="stylesheet" href="style/reset.css">
+		<link rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+
+		<header>
+		    <nav>
+		        <div id="logo">
+		            <a href="#" title="Menu">
+		                <img src="images/WFTH_logo.png" alt="Logo">
+		            </a>
+		        </div>
+		        <ul class="menu">
+		            <li>
+		                <a href="accueil.html" title="Retour page accueil">Accueil
+		                </a>
+		            </li>
+		            <li>
+		                <a href="compilation.html" title="Bienvenue dans mon univers">Compilation
+		                </a>
+		            </li>
+		            <li>
+		                <a href="WFTHqui.html" title="Qui est WFTH ?">W.F.T.H.
+		                </a>
+		            </li>
+		            <li>
+		                <a href="contact.html" title="Me contacter">
+		                	Me contacter
+		                </a>
+		            </li>
+		        </ul>
+		    </nav>
+		</header>
+
+
+		<section id="pageprojets">
+			<div id="conteneur">
+				<h2>
+					CHARTE GRAPHIQUE MIROIR
+				</h2>
+				<h3>
+					Association MiroirFilm
+				</h3>
+				<p>
+					Miroir est une association à but non lucratif qui s'engage à refléter fidèlement la réalité à travers des courts-métrages réfléchis et méticuleusement réalisés. En tant que graphiste au sein de cette structure, j’ai eu l’opportunité de collaborer avec Mme Katie Tenaillon pour la conception de la charte graphique et du logo.
+				</br>
+					L’objectif principal était de créer une identité visuelle forte, exprimant les valeurs fondamentales de transparence et de réalisme portées par l’association. Dès le début du processus, une palette monochrome axée sur le noir et le blanc s’est imposée comme une évidence et a été adoptée jusqu’à l’étape finale. La conception du logo a également permis de développer des symboles qui sont devenus des icônes emblématiques de l’association.
+				</p>
+			</div>
+
+			<article class="deuximages">
+				<figure>
+					<img src="images/miroir_logo.png" alt="logo">
+				</figure>
+				<figure>
+					<img src="images/miroir_icone.png" alt="icone">
+				</figure>
+			</article>
+			<article id="uneimage">
+				<figure>
+					<a href="https://miroirfilmassociation.com" target="_blank"><img src="images/site_miroir.png" alt="site web"></a>
+				</figure>
+			</article>
+			<article id="uneimage">
+				<figure>
+					<a href="https://miroirfilmassociation.com" target="_blank"><img src="images/site_miroir_page.png" alt="site web"></a>
+				</figure>
+			</article>
+			<article class="deuximages">
+				<figure>
+					<img src="images/uhqc.png" alt="un homme qui chute">
+				</figure>
+				<figure>
+					<img src="images/ufqc.png" alt="une fille qui chute">
+				</figure>
+			</article>
+			<article class="deuximages">
+				<figure>
+					<img src="images/tpq.png" alt="t'en penses quoi">
+				</figure>
+				<figure>
+					<img src="images/dernier_acte.png" alt="dernier acte">
+				</figure>
+			</article>
+			<article class="deuximages">
+				<figure>
+					<img src="images/regarde_toi.png" alt="regardes toi">
+				</figure>
+				<figure>
+					<img src="images/matrix.png" alt="matrix">
+				</figure>
+			</article>
+		</section>
+
+
+		<footer>
+		    <div class="footer-info">
+		    	<p><a href="mailto:sionneauenea@gmail.com">sionneauenea[at]gmail.com</a></p>
+		    	<p><a href="https://www.google.com/maps?q=Paris" target="_blank">Paris \</a><a href="https://www.google.com/maps?q=Tours" target="_blank">Tours,</a><a href="https://www.google.com/maps?q=France" target="_blank">France</a></p>
+		        <p><a href="tel:+33609848765">06 09 84 87 65</a></p>
+		    </div>
+
+		    <div class="footer-text">
+		        <p>Codé par Sionneau Enéa ©2024</p>
+		    </div>
+		</footer>
+
+
+		<script>
+		  const logo = document.querySelector('#logo');
+		  const menu = document.querySelector('.menu');
+
+		  logo.addEventListener('click', () => {
+		    const isMenuVisible = menu.style.display === 'flex';
+		    menu.style.display = isMenuVisible ? 'none' : 'flex';
+		    logo.classList.toggle('active'); // Ajoute ou enlève la classe active
+		  });
+		</script>
+
+
+	</body>	
+</html>
